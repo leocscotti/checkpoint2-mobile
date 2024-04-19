@@ -58,9 +58,6 @@ const AddProductScreen = ({ navigation }) => {
       <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('ListProducts')}>
         <Text style={{ color: 'white' }}>VER VINHOS</Text>
       </TouchableOpacity>
-      
-      
-      
 
       <TouchableOpacity style={styles.btnAbout} onPress={() => navigation.navigate('About')}>
         <Text style={{ color: 'white' }}>SOBRE</Text>
